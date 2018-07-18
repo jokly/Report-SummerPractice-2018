@@ -10,9 +10,13 @@
 
 % packages
 \usepackage{subfiles}
+\usepackage{tocloft}
 
 \begin{document}
 
-Привет, мир!!!
+% table of contents
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\tableofcontents
+\newpage
 
 \end{document}
