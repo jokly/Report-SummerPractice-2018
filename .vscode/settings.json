@@ -1,0 +1,18 @@
+{
+    "cSpell.language": "en,ru",
+    "latex-workshop.latex.recipes": [{
+        "name": "pdflatex",
+        "tools": [
+          "pdflatex"
+        ]
+      }],
+      "latex-workshop.latex.tools": [{
+        "name": "pdflatex",
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "main.tex"
+        ]
+      }]
+}
