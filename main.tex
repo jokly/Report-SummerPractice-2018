@@ -17,6 +17,22 @@
 \usepackage{amsmath}
 \usepackage{array}
 
+% commands
+\newcommand{\centersect}[1] {
+    \section*{\centering{#1}}
+    \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\sect}[1] {
+    \section*{#1}
+    \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\subsect}[1] {
+    \subsection*{#1}
+    \addcontentsline{toc}{subsection}{#1} 
+}
+
 \begin{document}
 
 % table of contents
@@ -26,6 +42,7 @@
 
 \subfile{sections/task}
 \newpage
+
 \subfile{sections/diary}
 
 \end{document}
