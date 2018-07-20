@@ -3,10 +3,15 @@
 % set font size
 \usepackage[14pt]{extsizes}
 
+% set font
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\newfontfamily\cyrillicfont{Times New Roman}
+
 % set lang
-\usepackage[T1,T2A]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
+\usepackage{polyglossia}
+\setdefaultlanguage[spelling=modern]{russian}
+\setotherlanguage{english}
 
 % packages
 \usepackage{subfiles}

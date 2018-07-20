@@ -1,2 +1,2 @@
 all:
-	pdflatex main.tex
+	xelatex main.tex
