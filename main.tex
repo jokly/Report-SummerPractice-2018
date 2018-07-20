@@ -1,8 +1,5 @@
 \documentclass{report}
 
-% set margins
-\usepackage[a4paper,left=3cm,right=1cm,top=2cm,bottom=2cm]{geometry}
-
 % set font size
 \usepackage[14pt]{extsizes}
 
@@ -16,6 +13,7 @@
 \usepackage{tocloft}
 \usepackage{amsmath}
 \usepackage{array}
+\usepackage{geometry}
 
 % commands
 \newcommand{\centersect}[1] {
@@ -34,6 +32,9 @@
 }
 
 \begin{document}
+
+% set margins
+\newgeometry{left=3cm,right=1cm,top=2cm,bottom=2cm}
 
 % table of contents
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
